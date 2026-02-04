@@ -22,3 +22,9 @@ This project uses Python for the API layer and Ollama to run a local language mo
 - The tinyllama model is used for lightweight local inference.
 
 Before running the API, Python and Ollama must be installed and Ollama should be running in the background.
+
+## Python Virtual Environment
+
+A Python virtual environment is used to isolate project dependencies.
+
+The environment is created using `python3 -m venv venv` and activated before installing or running any packages.
